@@ -3,16 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerInteraction : MonoBehaviour {
+public class PlayerInteraction : Singleton<PlayerInteraction> {
 
     public Text wailaText;
+
+    public GameObject damageIndication;
+    public GameObject healingIndication;
 
     Camera mainCamera;
     float interactDistance = 5;
     Interactable interactableCache;
 
+    public int health = 100;
 
-    void Awake(){
+    int starthealth;
+
+
+    public override void Awake(){
+        base.Awake();
+        starthealth = health;
         mainCamera = Camera.main;
     }
 
@@ -27,11 +36,51 @@ public class PlayerInteraction : MonoBehaviour {
     void RayCastForInteractables(){
         foreach(RaycastHit hit in GetAllRaycastHits()){
             interactableCache = hit.transform.GetComponent<Interactable>();
+            
             if(interactableCache != null){
+                Outline outlineTemp = interactableCache.GetComponent<Outline>();
+                if(outlineTemp != null){
+                    outlineTemp.enabled=true;
+                }
                 return;
             }
         }
-        interactableCache = null;
+        if(interactableCache != null){
+            Outline outlineTemp2 = interactableCache.GetComponent<Outline>();
+            if(outlineTemp2 != null){
+                outlineTemp2.enabled=false;
+            }
+            interactableCache = null;
+        }
+    }
+
+    public void GiveDamage(int amount){
+        StartCoroutine(FlashDamage());
+        health -= amount;
+        if(health <=0){
+            GlobalFunctions.instance.GameOver();
+        }
+    }
+
+    IEnumerator FlashDamage(){
+        damageIndication.SetActive(true);
+        yield return new WaitForSeconds(.1f);
+        damageIndication.SetActive(false);
+    }
+
+    IEnumerator FlashHealing(){
+        healingIndication.SetActive(true);
+        yield return new WaitForSeconds(.1f);
+        healingIndication.SetActive(false);
+    }
+
+    //TODO implement healing
+    public void HealPlayer(int amount){
+        StartCoroutine(FlashHealing());
+        health += amount;
+        if(health > starthealth){
+            health = starthealth;
+        }
     }
 
     void UpdateWaila(){

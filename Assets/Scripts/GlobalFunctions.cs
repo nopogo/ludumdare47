@@ -1,11 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
+using com.nopogo.Collections;
 using UnityEngine;
+
+[Serializable]
+public class ItemDictionary : SerializableDictionaryBase<Item, InventoryItem>{}
 
 public class GlobalFunctions : Singleton<GlobalFunctions> {
     public float calamityTimerMinutes = 10f;
 
-    Machine[] machines;
+    public Machine[] machines;
+    public ItemDictionary itemDictionary;
+
 
     void Start(){
         machines = FindObjectsOfType<Machine>();
@@ -26,5 +31,17 @@ public class GlobalFunctions : Singleton<GlobalFunctions> {
             }
         }
         Victory();
+    }
+
+
+    public void TurnOnGravity(){
+        Rigidbody[] rigidbodies = FindObjectsOfType<Rigidbody>();
+        foreach(Rigidbody rigidbody in rigidbodies){
+            PlayerMovement playerMovement = rigidbody.GetComponent<PlayerMovement>();
+            if(playerMovement != null){
+                playerMovement.EnableGravity();
+            }            
+            rigidbody.useGravity = true;
+        }
     }
 }

@@ -15,6 +15,7 @@ public class PlayerInventory : Singleton<PlayerInventory> {
 
     public void GiveItem(Item item){
         inventoryItems.Add(item);
+        InventoryUI.instance.UpdateInventoryUI();
     }
 
     public bool HasItem(Item item){
@@ -27,5 +28,6 @@ public class PlayerInventory : Singleton<PlayerInventory> {
             return;
         }
         inventoryItems.Remove(item);
+        InventoryUI.instance.UpdateInventoryUI();
     }
 }

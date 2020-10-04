@@ -76,6 +76,11 @@ MonoBehaviour:
   Plugins: []
   MasterBanks:
   - Master
-  Banks: []
+  Banks:
+  - Atmos
+  - Character Sounds
+  - Spot Effects
+  - Spot_Effects
+  - UI
   BanksToLoad: []
   LiveUpdatePort: 9264

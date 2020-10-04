@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+
 public class Machine : Interactable {
     public bool working = false;
 
