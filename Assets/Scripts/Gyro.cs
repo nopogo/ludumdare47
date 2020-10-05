@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Gyro : MonoBehaviour {
+public class Gyro : Interactable {
     public Gyro otherGyro;
     
     public bool turnedOn = false;
@@ -12,7 +12,18 @@ public class Gyro : MonoBehaviour {
     public UnityEvent turnOffEvent;
 
 
-	public void Interact(){
+    public override void Awake(){
+        base.Awake();
+        foreach(Gyro gyro in  FindObjectsOfType<Gyro>()){
+            if(gyro != this){
+                otherGyro = gyro;
+                return;
+            }
+        }
+    }
+
+
+	public override void Interact(){
         if(GlobalFunctions.instance.reactorWorks && GlobalFunctions.instance.generatorWorks){
             turnedOn = !turnedOn;
             if(turnedOn){

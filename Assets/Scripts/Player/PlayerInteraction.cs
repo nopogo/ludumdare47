@@ -110,6 +110,11 @@ public class PlayerInteraction : Singleton<PlayerInteraction> {
             if(door != null && door.needsKeycard == true){
                 formattedStringName = "Door needs keycard";
             }
+
+            Gyro gyro = interactableCache.GetComponent<Gyro>();
+            if(gyro != null){
+                formattedStringName = "Gyro, needs power to work";
+            }
         }
         wailaText.text = formattedStringName;
     }
