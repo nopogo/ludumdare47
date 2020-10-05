@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2891625433523288815}
   - component: {fileID: 2891625433523288800}
   - component: {fileID: 2891625433523288801}
+  - component: {fileID: 801029103}
   m_Layer: 0
   m_Name: GlobalScripts
   m_TagString: Untagged
@@ -48,16 +49,19 @@ MonoBehaviour:
   calamityTimerMinutes: 10
   machines: []
   itemDictionary:
-    _keys: 0000000001000000020000000300000004000000050000000600000007000000
+    _keys: 00000000010000000200000003000000040000000500000006000000
     _values:
     - {fileID: 0}
-    - {fileID: 11400000, guid: 449898a312cea024fbf19bfd76c838bb, type: 2}
     - {fileID: 11400000, guid: 8a422e2bc120a3b4393819b280d6f6e2, type: 2}
     - {fileID: 11400000, guid: e48ff63fb44b1314ebd9fb303e9d5b61, type: 2}
     - {fileID: 11400000, guid: 22dc55f539a18c1448cf19241f88ceb7, type: 2}
     - {fileID: 11400000, guid: 5f8771eba65a10a468ae8d2eb21c968c, type: 2}
     - {fileID: 11400000, guid: 4124cfb78a8d3d84dbd00ad8898d7102, type: 2}
     - {fileID: 11400000, guid: 122895af3b21f2245bcc2ee02d247290, type: 2}
+  reactorWorks: 0
+  generatorWorks: 0
+  gravityTaskRow: {fileID: 0}
+  gravity: 0
 --- !u!114 &2891625433523288801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,3 +78,26 @@ MonoBehaviour:
   tabMenu: {fileID: 0}
   escapeActive: 0
   tabMenuActive: 0
+--- !u!114 &801029103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2891625433523288814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/3D Sounds/Spot Effects/Alarm
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20

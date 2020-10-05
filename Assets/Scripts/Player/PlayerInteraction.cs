@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class PlayerInteraction : Singleton<PlayerInteraction> {
@@ -17,6 +18,9 @@ public class PlayerInteraction : Singleton<PlayerInteraction> {
     public int health = 100;
 
     int starthealth;
+
+    public UnityEvent playerDamaged;
+    public UnityEvent playerHealed;
 
 
     public override void Awake(){
@@ -56,6 +60,7 @@ public class PlayerInteraction : Singleton<PlayerInteraction> {
 
     public void GiveDamage(int amount){
         StartCoroutine(FlashDamage());
+        playerDamaged.Invoke();
         health -= amount;
         if(health <=0){
             GlobalFunctions.instance.GameOver();
@@ -76,6 +81,7 @@ public class PlayerInteraction : Singleton<PlayerInteraction> {
 
     //TODO implement healing
     public void HealPlayer(int amount){
+        playerHealed.Invoke();
         StartCoroutine(FlashHealing());
         health += amount;
         if(health > starthealth){

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 
@@ -10,6 +11,10 @@ public class Timer : MonoBehaviour {
     float timePassed;
 
     float timeUntilCalamity;
+
+    bool hasTriggeredLastMinute = false;
+
+    public UnityEvent lastMinute;
 
     void Start(){
         timeUntilCalamity = GlobalFunctions.instance.calamityTimerMinutes * 60;
@@ -24,6 +29,10 @@ public class Timer : MonoBehaviour {
     void UpdateTimerText(float timeLeftInSeconds){
         if(timeLeftInSeconds < 0){
             GlobalFunctions.instance.GameOver();
+        }
+        if(timeLeftInSeconds < 61 && hasTriggeredLastMinute == false){
+            hasTriggeredLastMinute = true;
+            lastMinute.Invoke();
         }
         string minutes = Mathf.Floor(timeLeftInSeconds/60).ToString("00");
         string seconds = Mathf.Floor(timeLeftInSeconds % 60).ToString("00");

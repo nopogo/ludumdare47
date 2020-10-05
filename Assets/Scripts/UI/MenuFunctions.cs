@@ -22,4 +22,8 @@ public class MenuFunctions : Singleton<MenuFunctions> {
         Cursor.visible = false;
         Time.timeScale = 1;
     }
+
+    public void ExitGame(){
+        Application.Quit();
+    }
 }

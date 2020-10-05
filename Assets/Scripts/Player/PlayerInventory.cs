@@ -1,9 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerInventory : Singleton<PlayerInventory> {
     public List<Item> inventoryItems;
+
+
+
+    public UnityEvent pickupEvent;
+    
 
 
     public override void Awake(){
@@ -14,6 +20,7 @@ public class PlayerInventory : Singleton<PlayerInventory> {
     }
 
     public void GiveItem(Item item){
+        pickupEvent.Invoke();
         inventoryItems.Add(item);
         InventoryUI.instance.UpdateInventoryUI();
     }

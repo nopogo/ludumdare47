@@ -79,6 +79,7 @@ MonoBehaviour:
   Banks:
   - Atmos
   - Character Sounds
+  - Music
   - Spot Effects
   - Spot_Effects
   - UI

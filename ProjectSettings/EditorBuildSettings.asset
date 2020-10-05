@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 41f2d6976d5fc5b4ab4e6d27d5bdf8d4
   - enabled: 1
-    path: Assets/Scenes/MainScene_Pogo.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/MainGame.unity
+    guid: 1303464c7b4a76841bd462f3233d5456
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 2e862d6ca8d7da446afeb234b57fd224
