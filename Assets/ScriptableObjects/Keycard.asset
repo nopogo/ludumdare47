@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ddf2cd4ea52b444180008dedbdbf767, type: 3}
   m_Name: Keycard
   m_EditorClassIdentifier: 
-  sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  itemName: Keycard + bitemark
+  sprite: {fileID: 21300000, guid: c22d47ee1ace0644f856b679138964a2, type: 3}
+  itemName: Keycard

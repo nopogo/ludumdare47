@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ddf2cd4ea52b444180008dedbdbf767, type: 3}
   m_Name: Key
   m_EditorClassIdentifier: 
-  sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  sprite: {fileID: 21300000, guid: e35c70b8e9b27734f807abdf184074e9, type: 3}
   itemName: IgnitionKey

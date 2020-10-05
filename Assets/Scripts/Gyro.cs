@@ -10,7 +10,8 @@ public class Gyro : Interactable {
 
     public UnityEvent turnOnEvent;
     public UnityEvent turnOffEvent;
-
+    float lastTimeInteract = 0f;
+    float minWaitTime = 1f;
 
     public override void Awake(){
         base.Awake();
@@ -25,6 +26,10 @@ public class Gyro : Interactable {
 
 	public override void Interact(){
         if(GlobalFunctions.instance.reactorWorks && GlobalFunctions.instance.generatorWorks){
+            if((Time.time - lastTimeInteract) < minWaitTime ){
+                return;
+            }
+            lastTimeInteract = Time.time;
             turnedOn = !turnedOn;
             if(turnedOn){
                 turnOnEvent.Invoke();

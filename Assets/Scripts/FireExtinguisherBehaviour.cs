@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.VFX;
 
 public class FireExtinguisherBehaviour : Singleton<FireExtinguisherBehaviour> {
     public Transform parentTransform;
@@ -14,9 +15,13 @@ public class FireExtinguisherBehaviour : Singleton<FireExtinguisherBehaviour> {
     Rigidbody playerRigidbody;
     BoxCollider shootCollider;
 
+    public VisualEffect extinguisher;
+
 
     public override void Awake(){
         base.Awake();
+        
+        extinguisher.Stop();
         playerRigidbody = GetComponent<Rigidbody>();
         shootCollider = parentTransform.GetComponent<BoxCollider>();
         shootCollider.enabled = false;
@@ -24,12 +29,16 @@ public class FireExtinguisherBehaviour : Singleton<FireExtinguisherBehaviour> {
 
     void Update(){
         if(holdingExtinguisher ){
+            if(Input.GetMouseButtonDown(0)){
+                extinguisher.Play();
+            }
             if(Input.GetMouseButton(0)){
                 shootCollider.enabled = true;
-                ExtinguisherForce();
+                ExtinguisherForce();                
                 AudioManager.instance.PlayExtinguisher(true);
             }if(Input.GetMouseButtonUp(0)){
                 shootCollider.enabled = false;
+                extinguisher.Stop();
                 AudioManager.instance.PlayExtinguisher(false);
             }
             if(Input.GetMouseButtonUp(1)){
