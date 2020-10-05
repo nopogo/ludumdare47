@@ -9,6 +9,8 @@ public class Machine : Interactable {
     public Item requiredItemToFix;
     public bool consumesItem;
 
+    public string toolTip = "placeholder";
+
     public UnityEvent fixedEvent;
 
     public override void Interact(){

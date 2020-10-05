@@ -18,7 +18,7 @@ public class InventoryUI : Singleton<InventoryUI> {
             InventoryItem tempItem = GlobalFunctions.instance.itemDictionary[itemType];
             GameObject newInventoryItem = Instantiate(inventoryUIItemPrefab, transform);
             newInventoryItem.GetComponentInChildren<Image>().sprite = tempItem.sprite;
-            newInventoryItem.GetComponentInChildren<Text>().text = tempItem.name;
+            newInventoryItem.GetComponentInChildren<Text>().text = tempItem.itemName;
         }
     }
 }

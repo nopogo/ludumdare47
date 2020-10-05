@@ -89,14 +89,20 @@ public class PlayerInteraction : Singleton<PlayerInteraction> {
             formattedStringName = interactableCache.gameObject.name;
 
             Machine tempMachine = interactableCache.GetComponent<Machine>();
-            if(tempMachine != null && tempMachine.working == false){
-                formattedStringName += " is broken.";
-                
+            
+            if(tempMachine != null && tempMachine.working == false){              
                 if(PlayerInventory.instance.HasItem(tempMachine.requiredItemToFix)){
-                    formattedStringName += " Fix it";
+                    formattedStringName += " Use";
                 }else{
-                    formattedStringName += $" You need a {tempMachine.requiredItemToFix} to fix it.";
+                    formattedStringName += $" {tempMachine.toolTip}.";
                 }
+            }
+            
+            
+
+            Door door = interactableCache.GetComponent<Door>();
+            if(door != null && door.needsKeycard == true){
+                formattedStringName = "Door needs keycard";
             }
         }
         wailaText.text = formattedStringName;
@@ -105,6 +111,13 @@ public class PlayerInteraction : Singleton<PlayerInteraction> {
     void Interact(){
         if(interactableCache != null){
             interactableCache.Interact();
+        }
+        foreach(RaycastHit hit in GetAllRaycastHits()){
+            Gyro gyro  = hit.transform.GetComponent<Gyro>();
+            if(gyro != null){
+                gyro.Interact();
+                return;
+            }
         }
     }
     

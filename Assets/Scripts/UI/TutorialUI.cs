@@ -13,7 +13,7 @@ public class TutorialUI : MonoBehaviour {
 
     public GameObject nextTutorialStage;
 
-    void OnEnable(){
+    void Start(){
         DeleteOldChildren();
         CreateNewChildren();
     }

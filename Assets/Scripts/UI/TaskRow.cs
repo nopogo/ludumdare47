@@ -8,6 +8,8 @@ public class TaskRow : MonoBehaviour {
 
     public Text labelText;
 
+    public bool gravityOne = false;
+
 
     void Awake(){
         toggle = GetComponent<Toggle>();

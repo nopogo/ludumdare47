@@ -45,12 +45,18 @@ public class PlayerMovement : MonoBehaviour {
         dragStart        = playerRigidbody.drag;
     }
 
-    public void EnableGravity(){
-        GetComponent<BoxCollider>().enabled = false;
-        characterController.enabled = true;
-        playerRigidbody.constraints  = RigidbodyConstraints.FreezeRotationX;
-        playerRigidbody.constraints  = RigidbodyConstraints.FreezeRotationZ;
-        playerRigidbody.transform.rotation = Quaternion.Euler(Vector3.zero);
+    public void EnableGravity(bool enable){
+        if(enable){
+            GetComponent<BoxCollider>().enabled = false;
+            characterController.enabled = true;
+            playerRigidbody.constraints  = RigidbodyConstraints.FreezeRotationX;
+            playerRigidbody.constraints  = RigidbodyConstraints.FreezeRotationZ;
+            playerRigidbody.transform.rotation = Quaternion.Euler(Vector3.zero);
+        }else{
+            GetComponent<BoxCollider>().enabled = true;
+            characterController.enabled = false;
+            playerRigidbody.constraints  = RigidbodyConstraints.None;
+        }
     }
 
     void Update(){
@@ -115,6 +121,9 @@ public class PlayerMovement : MonoBehaviour {
         if(Input.GetKey(KeyCode.E)){
             playJetPackNoise = true;
             rollDirection = -1f;
+        }
+        if(GlobalFunctions.instance.gravity){
+            playJetPackNoise = false;
         }
         AudioManager.instance.PlayJetPack(playJetPackNoise);
     }

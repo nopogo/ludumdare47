@@ -13,7 +13,7 @@ public class Fire : MonoBehaviour {
     public void RemoveHealth(){
         health -= 1;
         if(health >= 0){
-            gameObject.SetActive(false);
+            Destroy(gameObject);
         }
     }
 

@@ -18,6 +18,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-9039489677652285992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Spot Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Spot Effects.bank
+  SubDir: 
+  lastModified: 637374388248472390
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-8924963210621286378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36,6 +54,78 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-8733142809373320123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Character Sounds.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Character Sounds.bank
+  SubDir: 
+  lastModified: 637374388245993952
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-8720011265422758095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637374388244167723
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-8694027328260734486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637374487011075463
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8559042128029064413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Spot Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Spot Effects.bank
+  SubDir: 
+  lastModified: 637374487022074500
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-8455988373612365576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77,6 +167,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8311277607001069501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637374487011075463
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-8306565799083820112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,6 +203,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8275221234174463905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Atmos.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Atmos.bank
+  SubDir: 
+  lastModified: 637374388245644877
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-8165639613494828548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,6 +261,24 @@ MonoBehaviour:
   Max: 9
   Default: 0
   Exists: 1
+--- !u!114 &-8156014673349357696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Spot Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Spot Effects.bank
+  SubDir: 
+  lastModified: 637374487022074500
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-8065979650581424066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,7 +294,7 @@ MonoBehaviour:
   Path: event:/2D Sounds/Character Sounds/Wall Slams
   guid: 5e2408aa6870e74e81f499026f8fa8b2
   Banks:
-  - {fileID: -7462964058307360069}
+  - {fileID: -2581787122588751821}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -257,6 +401,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-7681447622320902553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637374388246323062
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-7515927331204106527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -290,7 +452,7 @@ MonoBehaviour:
   Path: event:/2D Sounds/Atmos/Ship Atmos
   guid: 5a3e94796f2ea3489490bf9dc7b17697
   Banks:
-  - {fileID: 3591371559736953948}
+  - {fileID: -8275221234174463905}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -315,7 +477,7 @@ MonoBehaviour:
   lastModified: 637374388245993952
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-7430783966693171212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -334,6 +496,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-7305204210293266460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Atmos.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Atmos.bank
+  SubDir: 
+  lastModified: 637374487020654739
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-7173527573324409993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -367,7 +547,7 @@ MonoBehaviour:
   Path: event:/3D Sounds/Spot Effects/Beep 3
   guid: f8dba1ac8e382c459cb530d3a0737ad5
   Banks:
-  - {fileID: 5181553292807385498}
+  - {fileID: -9039489677652285992}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -391,6 +571,24 @@ MonoBehaviour:
   Min: 0
   Max: 100
   Default: 100
+  Exists: 1
+--- !u!114 &-7089771465243750737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637374487007185789
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &-7073612262436791783
 MonoBehaviour:
@@ -485,7 +683,42 @@ MonoBehaviour:
   lastModified: 637374388244167723
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
+--- !u!114 &-6743309003870778923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fire/Distance
+  m_EditorClassIdentifier: 
+  Name: Distance
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &-6741718732067172355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Atmos.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Atmos.bank
+  SubDir: 
+  lastModified: 637374487020654739
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-6397848297082166856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -563,6 +796,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5866517865759675648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Spot_Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Spot_Effects.bank
+  SubDir: 
+  lastModified: 637374128586416888
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-5821056465847057560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -601,7 +852,7 @@ MonoBehaviour:
   Path: event:/2D Sounds/Atmos/Ship Atmos 2
   guid: 94641d8155d1954d8714f3eaa6982e47
   Banks:
-  - {fileID: 3591371559736953948}
+  - {fileID: -8275221234174463905}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -655,6 +906,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1630
+--- !u!114 &-5417382075573871988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Spot_Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Spot_Effects.bank
+  SubDir: 
+  lastModified: 637374128586416888
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-5372548555406686140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -702,6 +971,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-4956119009882003373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Spot_Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Spot_Effects.bank
+  SubDir: 
+  lastModified: 637374235848836590
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-4912719913739261717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -737,6 +1024,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4804679523987863194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637374487011075463
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-4762379716209325272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -752,6 +1057,24 @@ MonoBehaviour:
   Path: Assets/FmodBuild/Build/Desktop/UI.bank
   SubDir: 
   lastModified: 637374280166687325
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4554579765555185278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Character Sounds.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Character Sounds.bank
+  SubDir: 
+  lastModified: 637374388245993952
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -806,7 +1129,7 @@ MonoBehaviour:
   Path: event:/3D Sounds/Spot Effects/Generator
   guid: f0f2343d09cf0446aae69e3aa25bde10
   Banks:
-  - {fileID: 5181553292807385498}
+  - {fileID: -9039489677652285992}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -829,8 +1152,8 @@ MonoBehaviour:
   Path: event:/3D Sounds/Spot Effects/Energy Core
   guid: b2a7a03f5d0b3f48b5d315ed01f22b82
   Banks:
-  - {fileID: 5181553292807385498}
-  - {fileID: 8796682585476484175}
+  - {fileID: -9039489677652285992}
+  - {fileID: -2020351609626069641}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -940,6 +1263,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-3397915910630333982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fire/Distance
+  m_EditorClassIdentifier: 
+  Name: Distance
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
 --- !u!114 &-3367258377384066961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -955,7 +1295,7 @@ MonoBehaviour:
   Path: event:/2D Sounds/UI/UI Alarm
   guid: 58c349edee7e5042bf8aa8180acd68bc
   Banks:
-  - {fileID: -2661869936476596602}
+  - {fileID: 8767297933926218836}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1001,7 +1341,7 @@ MonoBehaviour:
   Path: event:/2D Sounds/UI/UI Beep
   guid: d8d8509ea696984980efc2c68cbe35eb
   Banks:
-  - {fileID: -2661869936476596602}
+  - {fileID: 8767297933926218836}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1009,6 +1349,77 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 750
+--- !u!114 &-3170075503785055713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Character Sounds.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Character Sounds.bank
+  SubDir: 
+  lastModified: 637374487012719506
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3095060890752223289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fire/Distance
+  m_EditorClassIdentifier: 
+  Name: Distance
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 1
+--- !u!114 &-3046759431222919797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Spot Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Spot Effects.bank
+  SubDir: 
+  lastModified: 637374388248472390
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2757211822672029956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637374388244167723
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-2736925185611906797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1061,7 +1472,7 @@ MonoBehaviour:
   lastModified: 637374388246323062
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-2597878510237077284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1078,6 +1489,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 1
+--- !u!114 &-2581787122588751821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Character Sounds.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Character Sounds.bank
+  SubDir: 
+  lastModified: 637374388245993952
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &-2571643738285443641
 MonoBehaviour:
@@ -1129,6 +1558,24 @@ MonoBehaviour:
   Min: 0
   Max: 20
   Default: 0
+  Exists: 0
+--- !u!114 &-2380255456672203378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Spot Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Spot Effects.bank
+  SubDir: 
+  lastModified: 637374487022074500
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-2307227553888196231
 MonoBehaviour:
@@ -1203,6 +1650,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 1
+--- !u!114 &-2020351609626069641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Spot_Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Spot_Effects.bank
+  SubDir: 
+  lastModified: 637374128586416888
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-2016379877816186781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1262,6 +1727,24 @@ MonoBehaviour:
   Max: 20
   Default: 0
   Exists: 1
+--- !u!114 &-1819286980617388001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Spot_Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Spot_Effects.bank
+  SubDir: 
+  lastModified: 637374235848836590
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-1571867550804717412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1280,6 +1763,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-1524534079110248297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637374487007185789
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-1485366139874168650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1416,6 +1917,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-1012209926794589374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637374388244167723
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-839227279101644543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1439,6 +1958,41 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 769
+--- !u!114 &-796110597456362964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fire/Distance
+  m_EditorClassIdentifier: 
+  Name: Distance
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &-659287379397183953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637374487007185789
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-601532894623828123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1455,6 +2009,24 @@ MonoBehaviour:
   Min: 0
   Max: 100
   Default: 100
+  Exists: 1
+--- !u!114 &-468368378295295159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Spot_Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Spot_Effects.bank
+  SubDir: 
+  lastModified: 637374235848836590
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &-409563336671905780
 MonoBehaviour:
@@ -1488,7 +2060,7 @@ MonoBehaviour:
   Path: event:/2D Sounds/Character Sounds/Fire Extinguisher
   guid: b23196ac025e8b42902ee5998a4fa33e
   Banks:
-  - {fileID: -7462964058307360069}
+  - {fileID: -2581787122588751821}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1564,12 +2136,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 3190381649599474564}
-  - {fileID: 3591371559736953948}
-  - {fileID: -7462964058307360069}
-  - {fileID: -6905758761378406984}
-  - {fileID: 5181553292807385498}
-  - {fileID: 8796682585476484175}
-  - {fileID: -2661869936476596602}
+  - {fileID: -8275221234174463905}
+  - {fileID: -2581787122588751821}
+  - {fileID: -8720011265422758095}
+  - {fileID: -9039489677652285992}
+  - {fileID: -2020351609626069641}
+  - {fileID: 8767297933926218836}
   EditorEvents:
   - {fileID: -7480724060402031899}
   - {fileID: 2038565588881189579}
@@ -1588,7 +2160,7 @@ MonoBehaviour:
   - {fileID: -3367258377384066961}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -6905758761378406984}
+  - {fileID: -8720011265422758095}
   StringsBanks:
   - {fileID: 3190381649599474564}
   stringsBankWriteTime: 637374388244217588
@@ -1699,6 +2271,42 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &627799677723308264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637374388244167723
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &765773574649980398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637374388246323062
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &771052627159645791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1748,7 +2356,7 @@ MonoBehaviour:
   Path: event:/2D Sounds/Character Sounds/Jetpack
   guid: d583bc811eec2b4a89d0dc4fe3535af7
   Banks:
-  - {fileID: -7462964058307360069}
+  - {fileID: -2581787122588751821}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1841,6 +2449,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 8650
+--- !u!114 &1628392509672689860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fire/Distance
+  m_EditorClassIdentifier: 
+  Name: Distance
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
 --- !u!114 &1746744473249930105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1882,6 +2507,60 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 295
+--- !u!114 &1780170436611227677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Character Sounds.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Character Sounds.bank
+  SubDir: 
+  lastModified: 637374388245993952
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1838501611589383037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Spot Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Spot Effects.bank
+  SubDir: 
+  lastModified: 637374388248472390
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1878695959657339197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Atmos.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Atmos.bank
+  SubDir: 
+  lastModified: 637374388245644877
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &1885905638504564016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1933,7 +2612,7 @@ MonoBehaviour:
   Path: event:/3D Sounds/Spot Effects/Beep 2
   guid: 7931e5ed185a2642bdc54ad9fbdbb89a
   Banks:
-  - {fileID: 5181553292807385498}
+  - {fileID: -9039489677652285992}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1958,6 +2637,24 @@ MonoBehaviour:
   Max: 6
   Default: 0
   Exists: 1
+--- !u!114 &2168308056901335126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637374388246323062
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &2170305205149153071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2203,6 +2900,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &3103279068979285216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Spot_Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Spot_Effects.bank
+  SubDir: 
+  lastModified: 637374235848836590
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &3141513265173315783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2324,7 +3039,7 @@ MonoBehaviour:
   Min: 0
   Max: 20
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &3533413300081951343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2360,7 +3075,25 @@ MonoBehaviour:
   lastModified: 637374388245644877
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
+--- !u!114 &3608749890416485721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Character Sounds.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Character Sounds.bank
+  SubDir: 
+  lastModified: 637374487012719506
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &3813166955839477694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2384,6 +3117,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 500
+--- !u!114 &3871887919468780843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Spot Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Spot Effects.bank
+  SubDir: 
+  lastModified: 637374487022074500
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &3895426286656244933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2425,6 +3176,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &3993527726517961366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fire/Distance
+  m_EditorClassIdentifier: 
+  Name: Distance
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 1
 --- !u!114 &4170140710769313000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2490,6 +3258,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1614
+--- !u!114 &4335405199985505851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Spot Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Spot Effects.bank
+  SubDir: 
+  lastModified: 637374388248472390
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &4484097984033715726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2549,6 +3335,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &4897183174424926560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Atmos.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Atmos.bank
+  SubDir: 
+  lastModified: 637374487020654739
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &4967915327483971283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2566,6 +3370,42 @@ MonoBehaviour:
   Max: 20
   Default: 0
   Exists: 0
+--- !u!114 &5001072293560568086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637374487011075463
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5041234390246833295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Character Sounds.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Character Sounds.bank
+  SubDir: 
+  lastModified: 637374487012719506
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &5073910421676756065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2581,12 +3421,12 @@ MonoBehaviour:
   Path: event:/3D Sounds/Spot Effects/Fire
   guid: bee80629f2909e4bbab98ec15c6bbf36
   Banks:
-  - {fileID: 5181553292807385498}
+  - {fileID: -9039489677652285992}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 3318030430384066061}
+  - {fileID: -3095060890752223289}
   MinDistance: 1
   MaxDistance: 20
   Length: 27397
@@ -2625,7 +3465,7 @@ MonoBehaviour:
   lastModified: 637374388248472390
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &5342916974136532402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2666,6 +3506,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 186
+--- !u!114 &5442797594448873636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637374487007185789
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &5444420304057235824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2681,7 +3539,7 @@ MonoBehaviour:
   Path: event:/3D Sounds/Spot Effects/Alarm
   guid: fe52dff878e8154dad7bcb163a7ab501
   Banks:
-  - {fileID: 5181553292807385498}
+  - {fileID: -9039489677652285992}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -2766,6 +3624,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &5959258034909449161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Atmos.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Atmos.bank
+  SubDir: 
+  lastModified: 637374388245644877
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &6334280229828761148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2834,7 +3710,7 @@ MonoBehaviour:
   Path: event:/3D Sounds/Spot Effects/Beep 1
   guid: b39330539f9dc646ae8db1b6845b476a
   Banks:
-  - {fileID: 5181553292807385498}
+  - {fileID: -9039489677652285992}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2988,6 +3864,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7321798569854656255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fire/Distance
+  m_EditorClassIdentifier: 
+  Name: Distance
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 1
 --- !u!114 &7340755032112786767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3039,6 +3932,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 1
+--- !u!114 &7449813250037704793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fire/Distance
+  m_EditorClassIdentifier: 
+  Name: Distance
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
 --- !u!114 &7494879699450174243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3174,6 +4084,42 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &8249749167540733958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Atmos.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Atmos.bank
+  SubDir: 
+  lastModified: 637374487020654739
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &8497444730566101921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Atmos.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Atmos.bank
+  SubDir: 
+  lastModified: 637374388245644877
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8589151776821956621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3189,7 +4135,7 @@ MonoBehaviour:
   Path: event:/3D Sounds/Spot Effects/Doors
   guid: 1b9a204f4f569b44bab47ac071fe1a6f
   Banks:
-  - {fileID: 5181553292807385498}
+  - {fileID: -9039489677652285992}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3197,6 +4143,42 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1714
+--- !u!114 &8732776774043503331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Spot_Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Spot_Effects.bank
+  SubDir: 
+  lastModified: 637374128586416888
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8767297933926218836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/UI.bank
+  SubDir: 
+  lastModified: 637374388246323062
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &8796682585476484175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3214,7 +4196,7 @@ MonoBehaviour:
   lastModified: 637374128586416888
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &8861522001425293253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3256,6 +4238,24 @@ MonoBehaviour:
   Min: 0
   Max: 5
   Default: 0
+  Exists: 1
+--- !u!114 &9033169422179918156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Character Sounds.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FmodBuild/Build/Desktop/Character Sounds.bank
+  SubDir: 
+  lastModified: 637374487012719506
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &9112789859214069801
 MonoBehaviour:

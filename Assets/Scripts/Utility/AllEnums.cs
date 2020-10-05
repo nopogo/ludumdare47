@@ -1,3 +1,3 @@
 ﻿
 
-public enum Item {None, Wrench, Keycard, Wires, Welder, Sandwich, Key}
+public enum Item {None, Wrench, Keycard, Wires, Welder, Sandwich, Key, Cucoomba}

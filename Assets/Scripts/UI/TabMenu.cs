@@ -18,7 +18,9 @@ public class TabMenu : MonoBehaviour {
     void DeleteOldChildren(){
         foreach(Transform childTransform in tabRowParent.GetComponentInChildren<Transform>()){
             if(childTransform != tabRowParent){
-                Destroy(childTransform.gameObject);
+                if(childTransform.GetComponent<TaskRow>().gravityOne == false){
+                    Destroy(childTransform.gameObject);
+                }   
             }
         }
     }
